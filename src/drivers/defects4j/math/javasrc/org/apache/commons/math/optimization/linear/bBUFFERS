@@ -1,0 +1,95 @@
+BF_R
+   String cnts = "<EXPR AFTER='arguments' AFTEREND='2915' AFTERSTART='291
+3' AFTERTYPE='SimpleName' " +\361         "AFTERTYPEID='42' END='2868' LI
+NE='61' NODETYPE='MethodInvocation' NODETYPEID='32' START='2866'>\\n" +\361
+   "<TEXT>b4</TEXT>" +\361   </EXPR>\361   <STACK>\361   <FRAME CLASS='or
+g.junit.Assert' FSIGN='(java.lang.String)' METHOD='fail' SIGNATURE='(Ljav
+a/lang/String;)V' />\361   <FRAME CLASS='org.junit.Assert' FSIGN='(java.l
+ang.String,java.lang.Object,java.lang.Object)' METHOD='failNotEquals' SIG
+NATURE='(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V' />\361
+   <FRAME CLASS='org.junit.Assert' FSIGN='(java.lang.String,java.lang.Obj
+ect,java.lang.Object)' METHOD='assertEquals' SIGNATURE='(Ljava/lang/Strin
+g;Ljava/lang/Object;Ljava/lang/Object;)V' />\361   <FRAME CLASS='net.perc
+ederberg.tetris.TetrisTest' FSIGN='()' METHOD='squareRotate' SIGNATURE='(
+)V' />\361   <FRAME CLASS='java.lang.invoke.LambdaForm$DMH.0x000000080101
+9400' FSIGN='(java.lang.Object,java.lang.Object)' METHOD='invokeVirtual' 
+SIGNATURE='(Ljava/lang/Object;Ljava/lang/Object;)V' />\361   <FRAME CLASS
+='java.lang.invoke.LambdaForm$MH.0x000000080101a000' FSIGN='(java.lang.Ob
+ject,java.lang.Object)' METHOD='invoke' SIGNATURE='(Ljava/lang/Object;Lja
+va/lang/Object;)Ljava/lang/Object;' />\361   <FRAME CLASS='java.lang.invo
+ke.Invokers$Holder' FSIGN='(java.lang.Object,java.lang.Object,java.lang.O
+bject)' METHOD='invokeExact_MT' SIGNATURE='(Ljava/lang/Object;Ljava/lang/
+Object;Ljava/lang/Object;)Ljava/lang/Object;' />\361   <FRAME CLASS='jdk.
+internal.reflect.DirectMethodHandleAccessor' FSIGN='(java.lang.Object,jav
+a.lang.Object[])' METHOD='invokeImpl' SIGNATURE='(Ljava/lang/Object;[Ljav
+a/lang/Object;)Ljava/lang/Object;' />\361   <FRAME CLASS='jdk.internal.re
+flect.DirectMethodHandleAccessor' FSIGN='(java.lang.Object,java.lang.Obje
+ct[])' METHOD='invoke' SIGNATURE='(Ljava/lang/Object;[Ljava/lang/Object;)
+Ljava/lang/Object;' />\361   <FRAME CLASS='java.lang.reflect.Method' FSIG
+N='(java.lang.Object,java.lang.Object[])' METHOD='invoke' SIGNATURE='(Lja
+va/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' />\361   <FRAME CL
+ASS='org.junit.runners.model.FrameworkMethod$1' FSIGN='()' METHOD='runRef
+lectiveCall' SIGNATURE='()Ljava/lang/Object;' />\361   <FRAME CLASS='org.
+junit.internal.runners.model.ReflectiveCallable' FSIGN='()' METHOD='run' 
+SIGNATURE='()Ljava/lang/Object;' />\361   <FRAME CLASS='org.junit.runners
+.model.FrameworkMethod' FSIGN='(java.lang.Object,java.lang.Object[])' MET
+HOD='invokeExplosively' SIGNATURE='(Ljava/lang/Object;[Ljava/lang/Object;
+)Ljava/lang/Object;' />\361   <FRAME CLASS='org.junit.internal.runners.st
+atements.InvokeMethod' FSIGN='()' METHOD='evaluate' SIGNATURE='()V' />\361
+   <FRAME CLASS='org.junit.runners.ParentRunner&lt;T&gt;' FSIGN='(org.jun
+it.runners.model.Statement,org.junit.runner.Description,org.junit.runner.
+notification.RunNotifier)' METHOD='runLeaf' SIGNATURE='(Lorg/junit/runner
+s/model/Statement;Lorg/junit/runner/Description;Lorg/junit/runner/notific
+ation/RunNotifier;)V' />\361   <FRAME CLASS='org.junit.runners.BlockJUnit
+4ClassRunner' FSIGN='(org.junit.runners.model.FrameworkMethod,org.junit.r
+unner.notification.RunNotifier)' METHOD='runChild' SIGNATURE='(Lorg/junit
+/runners/model/FrameworkMethod;Lorg/junit/runner/notification/RunNotifier
+;)V' />\361   <FRAME CLASS='org.junit.runners.BlockJUnit4ClassRunner' FSI
+GN='(java.lang.Object,org.junit.runner.notification.RunNotifier)' METHOD=
+'runChild' SIGNATURE='(Ljava/lang/Object;Lorg/junit/runner/notification/R
+unNotifier;)V' />\361   <FRAME CLASS='org.junit.runners.ParentRunner$3' F
+SIGN='()' METHOD='run' SIGNATURE='()V' />\361   <FRAME CLASS='org.junit.r
+unners.ParentRunner$1' FSIGN='(java.lang.Runnable)' METHOD='schedule' SIG
+NATURE='(Ljava/lang/Runnable;)V' />\361   <FRAME CLASS='org.junit.runners
+.ParentRunner&lt;T&gt;' FSIGN='(org.junit.runner.notification.RunNotifier
+)' METHOD='runChildren' SIGNATURE='(Lorg/junit/runner/notification/RunNot
+ifier;)V' />\361   <FRAME CLASS='org.junit.runners.ParentRunner&lt;T&gt;'
+ FSIGN='(org.junit.runners.ParentRunner,org.junit.runner.notification.Run
+Notifier)' METHOD='access$000' SIGNATURE='(Lorg/junit/runners/ParentRunne
+r;Lorg/junit/runner/notification/RunNotifier;)V' />\361   <FRAME CLASS='o
+rg.junit.runners.ParentRunner$2' FSIGN='()' METHOD='evaluate' SIGNATURE='
+()V' />\361   <FRAME CLASS='org.junit.runners.ParentRunner&lt;T&gt;' FSIG
+N='(org.junit.runner.notification.RunNotifier)' METHOD='run' SIGNATURE='(
+Lorg/junit/runner/notification/RunNotifier;)V' />\361   <FRAME CLASS='org
+.eclipse.jdt.internal.junit4.runner.JUnit4TestReference' FSIGN='(org.ecli
+pse.jdt.internal.junit.runner.TestExecution)' METHOD='run' SIGNATURE='(Lo
+rg/eclipse/jdt/internal/junit/runner/TestExecution;)V' />\361   <FRAME CL
+ASS='org.eclipse.jdt.internal.junit.runner.TestExecution' FSIGN='(org.ecl
+ipse.jdt.internal.junit.runner.ITestReference[])' METHOD='run' SIGNATURE=
+'([Lorg/eclipse/jdt/internal/junit/runner/ITestReference;)V' />\361   <FR
+AME CLASS='org.eclipse.jdt.internal.junit.runner.RemoteTestRunner' FSIGN=
+'(java.lang.String[],java.lang.String,org.eclipse.jdt.internal.junit.runn
+er.TestExecution)' METHOD='runTests' SIGNATURE='([Ljava/lang/String;Ljava
+/lang/String;Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V' />\361
+   <FRAME CLASS='org.eclipse.jdt.internal.junit.runner.RemoteTestRunner' 
+FSIGN='(org.eclipse.jdt.internal.junit.runner.TestExecution)' METHOD='run
+Tests' SIGNATURE='(Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)
+V' />\361   <FRAME CLASS='org.eclipse.jdt.internal.junit.runner.RemoteTes
+tRunner' FSIGN='()' METHOD='run' SIGNATURE='()V' />\361   <FRAME CLASS='o
+rg.eclipse.jdt.internal.junit.runner.RemoteTestRunner' FSIGN='(java.lang.
+String[])' METHOD='main' SIGNATURE='([Ljava/lang/String;)V' />\361   </ST
+ACK>\361
+
+BF_S
++
+
+BF_W
+\372"\352\313"\227\241\\n" +\227\346
+
+BF_X
+   
+
+BF_Y
+ssh sherpa '(cd /vol/iot/iqsign; start.csh)'\361echo iqsign start status 
+$status\361
+

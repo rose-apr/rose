@@ -1,0 +1,48 @@
+BF_Y
+    protected Size2D arrangeFF(BlockContainer container, Graphics2D g2,\361
+                               RectangleConstraint constraint) {\361     
+   double[] w = new double[5];\361        double[] h = new double[5];\361
+        w[0] = constraint.getWidth();\361        if (this.topBlock != nul
+l) {\361            RectangleConstraint c1 = new RectangleConstraint(w[0]
+, null,\361                    LengthConstraintType.FIXED, 0.0,\361      
+              new Range(0.0, constraint.getHeight()),\361                
+    LengthConstraintType.RANGE);\361            Size2D size = this.topBlo
+ck.arrange(g2, c1);\361            h[0] = size.height;\361        }\361  
+      w[1] = w[0];\361        if (this.bottomBlock != null) {\361        
+    RectangleConstraint c2 = new RectangleConstraint(w[0], null,\361     
+               LengthConstraintType.FIXED, 0.0, new Range(0.0,\361       
+             constraint.getHeight() - h[0]), LengthConstraintType.RANGE);
+\361            Size2D size = this.bottomBlock.arrange(g2, c2);\361      
+      h[1] = size.height;\361        }\361        h[2] = constraint.getHe
+ight() - h[1] - h[0];\361        if (this.leftBlock != null) {\361       
+     RectangleConstraint c3 = new RectangleConstraint(0.0,\361           
+         new Range(0.0, constraint.getWidth()),\361                    Le
+ngthConstraintType.RANGE, h[2], null,\361                    LengthConstr
+aintType.FIXED);\361            Size2D size = this.leftBlock.arrange(g2, 
+c3);\361            w[2] = size.width;\361        }\361        h[3] = h[2
+];\361        if (this.rightBlock != null) {\361           // **** D4J **
+**\361           // Replace: new Range(0.0, constraint.getWidth() - w[2])
+,\361           //    with: new Range(0.0, Math.max(constraint.getWidth()
+ - w[2], 0.0)) \361           RectangleConstraint c4 = new RectangleConst
+raint(0.0,\361                 new Range(0.0, constraint.getWidth() - w[2
+]),\361                 LengthConstraintType.RANGE, h[2], null,\361      
+           LengthConstraintType.FIXED);\361           Size2D size = this.
+rightBlock.arrange(g2, c4);\361           w[3] = size.width;\361        }
+\361        h[4] = h[2];\361        w[4] = constraint.getWidth() - w[3] -
+ w[2];\361        RectangleConstraint c5 = new RectangleConstraint(w[4], 
+h[4]);\361        if (this.centerBlock != null) {\361            this.cen
+terBlock.arrange(g2, c5);\361        }\361    \361        if (this.topBlo
+ck != null) {\361            this.topBlock.setBounds(new Rectangle2D.Doub
+le(0.0, 0.0, w[0],\361                    h[0]));\361        }\361       
+ if (this.bottomBlock != null) {\361            this.bottomBlock.setBound
+s(new Rectangle2D.Double(0.0, h[0] + h[2],\361                    w[1], h
+[1]));\361        }\361        if (this.leftBlock != null) {\361         
+   this.leftBlock.setBounds(new Rectangle2D.Double(0.0, h[0], w[2],\361  
+                  h[2]));\361        }\361        if (this.rightBlock != 
+null) {\361            this.rightBlock.setBounds(new Rectangle2D.Double(w
+[2] + w[4], h[0],\361                    w[3], h[3]));\361        }\361  
+      if (this.centerBlock != null) {\361            this.centerBlock.set
+Bounds(new Rectangle2D.Double(w[2], h[0], w[4],\361                    h[
+4]));\361        }\361        return new Size2D(constraint.getWidth(), co
+nstraint.getHeight());\361    }\361
+

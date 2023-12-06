@@ -1,0 +1,49 @@
+/********************************************************************************/
+/*                                                                              */
+/*              BugMath09.java                                                  */
+/*                                                                              */
+/*      description of class                                                    */
+/*                                                                              */
+/********************************************************************************/
+/*      Copyright 2011 Brown University -- Steven P. Reiss                    */
+
+
+
+package edu.brown.cs.d4jspr;
+
+import org.apache.commons.math3.geometry.euclidean.threed.Line;
+import org.apache.commons.math3.geometry.euclidean.threed.Vector3D;
+
+public class BugMath09 implements BugConstants
+{
+
+
+public static void main(String [] args)
+{
+   testMath09();
+}
+
+
+public static void testMath09()
+{
+   // setup
+   Line line = new Line(new Vector3D(1653345.6696423641, 6170370.041579291, 90000),
+         new Vector3D(1650757.5050732433, 6160710.879908984, 0.9));
+   Vector3D expected = line.getDirection().negate();
+   
+   // action
+   Line reverted = line.revert();
+   Vector3D dir = reverted.getDirection();
+   assert dir.getX() == expected.getX();
+   assert dir.getY() == expected.getY();
+   assert dir.getZ() == expected.getZ();
+}
+
+
+}       // end of class BugMath09
+
+
+
+
+/* end of BugMath09.java */
+

@@ -1,0 +1,707 @@
+0000000    /   *  \n       *       L   i   c   e   n   s   e   d       t
+0000016    o       t   h   e       A   p   a   c   h   e       S   o   f
+0000032    t   w   a   r   e       F   o   u   n   d   a   t   i   o   n
+0000048        (   A   S   F   )       u   n   d   e   r       o   n   e
+0000064        o   r       m   o   r   e  \n       *       c   o   n   t
+0000080    r   i   b   u   t   o   r       l   i   c   e   n   s   e    
+0000096    a   g   r   e   e   m   e   n   t   s   .           S   e   e
+0000112        t   h   e       N   O   T   I   C   E       f   i   l   e
+0000128        d   i   s   t   r   i   b   u   t   e   d       w   i   t
+0000144    h  \n       *       t   h   i   s       w   o   r   k       f
+0000160    o   r       a   d   d   i   t   i   o   n   a   l       i   n
+0000176    f   o   r   m   a   t   i   o   n       r   e   g   a   r   d
+0000192    i   n   g       c   o   p   y   r   i   g   h   t       o   w
+0000208    n   e   r   s   h   i   p   .  \n       *       T   h   e    
+0000224    A   S   F       l   i   c   e   n   s   e   s       t   h   i
+0000240    s       f   i   l   e       t   o       Y   o   u       u   n
+0000256    d   e   r       t   h   e       A   p   a   c   h   e       L
+0000272    i   c   e   n   s   e   ,       V   e   r   s   i   o   n    
+0000288    2   .   0  \n       *       (   t   h   e       "   L   i   c
+0000304    e   n   s   e   "   )   ;       y   o   u       m   a   y    
+0000320    n   o   t       u   s   e       t   h   i   s       f   i   l
+0000336    e       e   x   c   e   p   t       i   n       c   o   m   p
+0000352    l   i   a   n   c   e       w   i   t   h  \n       *       t
+0000368    h   e       L   i   c   e   n   s   e   .           Y   o   u
+0000384        m   a   y       o   b   t   a   i   n       a       c   o
+0000400    p   y       o   f       t   h   e       L   i   c   e   n   s
+0000416    e       a   t  \n       *  \n       *                        
+0000432    h   t   t   p   :   /   /   w   w   w   .   a   p   a   c   h
+0000448    e   .   o   r   g   /   l   i   c   e   n   s   e   s   /   L
+0000464    I   C   E   N   S   E   -   2   .   0  \n       *  \n       *
+0000480        U   n   l   e   s   s       r   e   q   u   i   r   e   d
+0000496        b   y       a   p   p   l   i   c   a   b   l   e       l
+0000512    a   w       o   r       a   g   r   e   e   d       t   o    
+0000528    i   n       w   r   i   t   i   n   g   ,       s   o   f   t
+0000544    w   a   r   e  \n       *       d   i   s   t   r   i   b   u
+0000560    t   e   d       u   n   d   e   r       t   h   e       L   i
+0000576    c   e   n   s   e       i   s       d   i   s   t   r   i   b
+0000592    u   t   e   d       o   n       a   n       "   A   S       I
+0000608    S   "       B   A   S   I   S   ,  \n       *       W   I   T
+0000624    H   O   U   T       W   A   R   R   A   N   T   I   E   S    
+0000640    O   R       C   O   N   D   I   T   I   O   N   S       O   F
+0000656        A   N   Y       K   I   N   D   ,       e   i   t   h   e
+0000672    r       e   x   p   r   e   s   s       o   r       i   m   p
+0000688    l   i   e   d   .  \n       *       S   e   e       t   h   e
+0000704        L   i   c   e   n   s   e       f   o   r       t   h   e
+0000720        s   p   e   c   i   f   i   c       l   a   n   g   u   a
+0000736    g   e       g   o   v   e   r   n   i   n   g       p   e   r
+0000752    m   i   s   s   i   o   n   s       a   n   d  \n       *    
+0000768    l   i   m   i   t   a   t   i   o   n   s       u   n   d   e
+0000784    r       t   h   e       L   i   c   e   n   s   e   .  \n    
+0000800    *   /  \n   p   a   c   k   a   g   e       o   r   g   .   a
+0000816    p   a   c   h   e   .   c   o   m   m   o   n   s   .   m   a
+0000832    t   h   3   .   g   e   o   m   e   t   r   y   .   e   u   c
+0000848    l   i   d   e   a   n   .   o   n   e   d   ;  \n  \n   i   m
+0000864    p   o   r   t       j   a   v   a   .   u   t   i   l   .   A
+0000880    r   r   a   y   L   i   s   t   ;  \n   i   m   p   o   r   t
+0000896        j   a   v   a   .   u   t   i   l   .   C   o   l   l   e
+0000912    c   t   i   o   n   ;  \n   i   m   p   o   r   t       j   a
+0000928    v   a   .   u   t   i   l   .   L   i   s   t   ;  \n  \n   i
+0000944    m   p   o   r   t       o   r   g   .   a   p   a   c   h   e
+0000960    .   c   o   m   m   o   n   s   .   m   a   t   h   3   .   g
+0000976    e   o   m   e   t   r   y   .   p   a   r   t   i   t   i   o
+0000992    n   i   n   g   .   A   b   s   t   r   a   c   t   R   e   g
+0001008    i   o   n   ;  \n   i   m   p   o   r   t       o   r   g   .
+0001024    a   p   a   c   h   e   .   c   o   m   m   o   n   s   .   m
+0001040    a   t   h   3   .   g   e   o   m   e   t   r   y   .   p   a
+0001056    r   t   i   t   i   o   n   i   n   g   .   B   S   P   T   r
+0001072    e   e   ;  \n   i   m   p   o   r   t       o   r   g   .   a
+0001088    p   a   c   h   e   .   c   o   m   m   o   n   s   .   m   a
+0001104    t   h   3   .   g   e   o   m   e   t   r   y   .   p   a   r
+0001120    t   i   t   i   o   n   i   n   g   .   S   u   b   H   y   p
+0001136    e   r   p   l   a   n   e   ;  \n   i   m   p   o   r   t    
+0001152    o   r   g   .   a   p   a   c   h   e   .   c   o   m   m   o
+0001168    n   s   .   m   a   t   h   3   .   u   t   i   l   .   P   r
+0001184    e   c   i   s   i   o   n   ;  \n  \n   /   *   *       T   h
+0001200    i   s       c   l   a   s   s       r   e   p   r   e   s   e
+0001216    n   t   s       a       1   D       r   e   g   i   o   n   :
+0001232        a       s   e   t       o   f       i   n   t   e   r   v
+0001248    a   l   s   .  \n       *       @   v   e   r   s   i   o   n
+0001264        $   I   d   $  \n       *       @   s   i   n   c   e    
+0001280    3   .   0  \n       *   /  \n   p   u   b   l   i   c       c
+0001296    l   a   s   s       I   n   t   e   r   v   a   l   s   S   e
+0001312    t       e   x   t   e   n   d   s       A   b   s   t   r   a
+0001328    c   t   R   e   g   i   o   n   <   E   u   c   l   i   d   e
+0001344    a   n   1   D   ,       E   u   c   l   i   d   e   a   n   1
+0001360    D   >       {  \n  \n                   /   *   *       B   u
+0001376    i   l   d       a   n       i   n   t   e   r   v   a   l   s
+0001392        s   e   t       r   e   p   r   e   s   e   n   t   i   n
+0001408    g       t   h   e       w   h   o   l   e       r   e   a   l
+0001424        l   i   n   e   .  \n                       *   /  \n    
+0001440                p   u   b   l   i   c       I   n   t   e   r   v
+0001456    a   l   s   S   e   t   (   )       {  \n                    
+0001472                s   u   p   e   r   (   )   ;  \n                
+0001488    }  \n  \n                   /   *   *       B   u   i   l   d
+0001504        a   n       i   n   t   e   r   v   a   l   s       s   e
+0001520    t       c   o   r   r   e   s   p   o   n   d   i   n   g    
+0001536    t   o       a       s   i   n   g   l   e       i   n   t   e
+0001552    r   v   a   l   .  \n                       *       @   p   a
+0001568    r   a   m       l   o   w   e   r       l   o   w   e   r    
+0001584    b   o   u   n   d       o   f       t   h   e       i   n   t
+0001600    e   r   v   a   l   ,       m   u   s   t       b   e       l
+0001616    e   s   s   e   r       o   r       e   q   u   a   l  \n    
+0001632                    *       t   o       {   @   c   o   d   e    
+0001648    u   p   p   e   r   }       (   m   a   y       b   e       {
+0001664    @   c   o   d   e       D   o   u   b   l   e   .   N   E   G
+0001680    A   T   I   V   E   _   I   N   F   I   N   I   T   Y   }   )
+0001696   \n                       *       @   p   a   r   a   m       u
+0001712    p   p   e   r       u   p   p   e   r       b   o   u   n   d
+0001728        o   f       t   h   e       i   n   t   e   r   v   a   l
+0001744    ,       m   u   s   t       b   e       g   r   e   a   t   e
+0001760    r       o   r       e   q   u   a   l  \n                    
+0001776    *       t   o       {   @   c   o   d   e       l   o   w   e
+0001792    r   }       (   m   a   y       b   e       {   @   c   o   d
+0001808    e       D   o   u   b   l   e   .   P   O   S   I   T   I   V
+0001824    E   _   I   N   F   I   N   I   T   Y   }   )  \n            
+0001840            *   /  \n                   p   u   b   l   i   c    
+0001856    I   n   t   e   r   v   a   l   s   S   e   t   (   f   i   n
+0001872    a   l       d   o   u   b   l   e       l   o   w   e   r   ,
+0001888        f   i   n   a   l       d   o   u   b   l   e       u   p
+0001904    p   e   r   )       {  \n                                   s
+0001920    u   p   e   r   (   b   u   i   l   d   T   r   e   e   (   l
+0001936    o   w   e   r   ,       u   p   p   e   r   )   )   ;  \n    
+0001952                }  \n  \n                   /   *   *       B   u
+0001968    i   l   d       a   n       i   n   t   e   r   v   a   l   s
+0001984        s   e   t       f   r   o   m       a   n       i   n   s
+0002000    i   d   e   /   o   u   t   s   i   d   e       B   S   P    
+0002016    t   r   e   e   .  \n                       *       <   p   >
+0002032    T   h   e       l   e   a   f       n   o   d   e   s       o
+0002048    f       t   h   e       B   S   P       t   r   e   e       <
+0002064    e   m   >   m   u   s   t   <   /   e   m   >       h   a   v
+0002080    e       a  \n                       *       {   @   c   o   d
+0002096    e       B   o   o   l   e   a   n   }       a   t   t   r   i
+0002112    b   u   t   e       r   e   p   r   e   s   e   n   t   i   n
+0002128    g       t   h   e       i   n   s   i   d   e       s   t   a
+0002144    t   u   s       o   f  \n                       *       t   h
+0002160    e       c   o   r   r   e   s   p   o   n   d   i   n   g    
+0002176    c   e   l   l       (   t   r   u   e       f   o   r       i
+0002192    n   s   i   d   e       c   e   l   l   s   ,       f   a   l
+0002208    s   e       f   o   r       o   u   t   s   i   d   e  \n    
+0002224                    *       c   e   l   l   s   )   .       I   n
+0002240        o   r   d   e   r       t   o       a   v   o   i   d    
+0002256    b   u   i   l   d   i   n   g       t   o   o       m   a   n
+0002272    y       s   m   a   l   l       o   b   j   e   c   t   s   ,
+0002288        i   t       i   s  \n                       *       r   e
+0002304    c   o   m   m   e   n   d   e   d       t   o       u   s   e
+0002320        t   h   e       p   r   e   d   e   f   i   n   e   d    
+0002336    c   o   n   s   t   a   n   t   s  \n                       *
+0002352        {   @   c   o   d   e       B   o   o   l   e   a   n   .
+0002368    T   R   U   E   }       a   n   d       {   @   c   o   d   e
+0002384        B   o   o   l   e   a   n   .   F   A   L   S   E   }   <
+0002400    /   p   >  \n                       *       @   p   a   r   a
+0002416    m       t   r   e   e       i   n   s   i   d   e   /   o   u
+0002432    t   s   i   d   e       B   S   P       t   r   e   e       r
+0002448    e   p   r   e   s   e   n   t   i   n   g       t   h   e    
+0002464    i   n   t   e   r   v   a   l   s       s   e   t  \n        
+0002480                *   /  \n                   p   u   b   l   i   c
+0002496        I   n   t   e   r   v   a   l   s   S   e   t   (   f   i
+0002512    n   a   l       B   S   P   T   r   e   e   <   E   u   c   l
+0002528    i   d   e   a   n   1   D   >       t   r   e   e   )       {
+0002544   \n                                   s   u   p   e   r   (   t
+0002560    r   e   e   )   ;  \n                   }  \n  \n            
+0002576        /   *   *       B   u   i   l   d       a   n       i   n
+0002592    t   e   r   v   a   l   s       s   e   t       f   r   o   m
+0002608        a       B   o   u   n   d   a   r   y       R   E   P   r
+0002624    e   s   e   n   t   a   t   i   o   n       (   B   -   r   e
+0002640    p   )   .  \n                       *       <   p   >   T   h
+0002656    e       b   o   u   n   d   a   r   y       i   s       p   r
+0002672    o   v   i   d   e   d       a   s       a       c   o   l   l
+0002688    e   c   t   i   o   n       o   f       {   @   l   i   n   k
+0002704   \n                       *       S   u   b   H   y   p   e   r
+0002720    p   l   a   n   e       s   u   b   -   h   y   p   e   r   p
+0002736    l   a   n   e   s   }   .       E   a   c   h       s   u   b
+0002752    -   h   y   p   e   r   p   l   a   n   e       h   a   s    
+0002768    t   h   e  \n                       *       i   n   t   e   r
+0002784    i   o   r       p   a   r   t       o   f       t   h   e    
+0002800    r   e   g   i   o   n       o   n       i   t   s       m   i
+0002816    n   u   s       s   i   d   e       a   n   d       t   h   e
+0002832        e   x   t   e   r   i   o   r       o   n  \n            
+0002848            *       i   t   s       p   l   u   s       s   i   d
+0002864    e   .   <   /   p   >  \n                       *       <   p
+0002880    >   T   h   e       b   o   u   n   d   a   r   y       e   l
+0002896    e   m   e   n   t   s       c   a   n       b   e       i   n
+0002912        a   n   y       o   r   d   e   r   ,       a   n   d    
+0002928    c   a   n       f   o   r   m  \n                       *    
+0002944    s   e   v   e   r   a   l       n   o   n   -   c   o   n   n
+0002960    e   c   t   e   d       s   e   t   s       (   l   i   k   e
+0002976        f   o   r       e   x   a   m   p   l   e       p   o   l
+0002992    y   g   o   n   s       w   i   t   h       h   o   l   e   s
+0003008   \n                       *       o   r       a       s   e   t
+0003024        o   f       d   i   s   j   o   i   n   t   s       p   o
+0003040    l   y   h   e   d   r   o   n   s       c   o   n   s   i   d
+0003056    e   r   e   d       a   s       a       w   h   o   l   e   )
+0003072    .       I   n  \n                       *       f   a   c   t
+0003088    ,       t   h   e       e   l   e   m   e   n   t   s       d
+0003104    o       n   o   t       e   v   e   n       n   e   e   d    
+0003120    t   o       b   e       c   o   n   n   e   c   t   e   d    
+0003136    t   o   g   e   t   h   e   r  \n                       *    
+0003152    (   t   h   e   i   r       t   o   p   o   l   o   g   i   c
+0003168    a   l       c   o   n   n   e   c   t   i   o   n   s       a
+0003184    r   e       n   o   t       u   s   e   d       h   e   r   e
+0003200    )   .       H   o   w   e   v   e   r   ,       i   f       t
+0003216    h   e  \n                       *       b   o   u   n   d   a
+0003232    r   y       d   o   e   s       n   o   t       r   e   a   l
+0003248    l   y       s   e   p   a   r   a   t   e       a   n       i
+0003264    n   s   i   d   e       o   p   e   n       f   r   o   m    
+0003280    a   n       o   u   t   s   i   d   e  \n                    
+0003296    *       o   p   e   n       (   o   p   e   n       h   a   v
+0003312    i   n   g       h   e   r   e       i   t   s       t   o   p
+0003328    o   l   o   g   i   c   a   l       m   e   a   n   i   n   g
+0003344    )   ,       t   h   e   n       s   u   b   s   e   q   u   e
+0003360    n   t  \n                       *       c   a   l   l   s    
+0003376    t   o       t   h   e       {   @   l   i   n   k  \n        
+0003392                *       o   r   g   .   a   p   a   c   h   e   .
+0003408    c   o   m   m   o   n   s   .   m   a   t   h   3   .   g   e
+0003424    o   m   e   t   r   y   .   p   a   r   t   i   t   i   o   n
+0003440    i   n   g   .   R   e   g   i   o   n   #   c   h   e   c   k
+0003456    P   o   i   n   t   (   o   r   g   .   a   p   a   c   h   e
+0003472    .   c   o   m   m   o   n   s   .   m   a   t   h   3   .   g
+0003488    e   o   m   e   t   r   y   .   V   e   c   t   o   r   )  \n
+0003504                        *       c   h   e   c   k   P   o   i   n
+0003520    t   }       m   e   t   h   o   d       w   i   l   l       n
+0003536    o   t       b   e       m   e   a   n   i   n   g   f   u   l
+0003552        a   n   y   m   o   r   e   .   <   /   p   >  \n        
+0003568                *       <   p   >   I   f       t   h   e       b
+0003584    o   u   n   d   a   r   y       i   s       e   m   p   t   y
+0003600    ,       t   h   e       r   e   g   i   o   n       w   i   l
+0003616    l       r   e   p   r   e   s   e   n   t       t   h   e    
+0003632    w   h   o   l   e  \n                       *       s   p   a
+0003648    c   e   .   <   /   p   >  \n                       *       @
+0003664    p   a   r   a   m       b   o   u   n   d   a   r   y       c
+0003680    o   l   l   e   c   t   i   o   n       o   f       b   o   u
+0003696    n   d   a   r   y       e   l   e   m   e   n   t   s  \n    
+0003712                    *   /  \n                   p   u   b   l   i
+0003728    c       I   n   t   e   r   v   a   l   s   S   e   t   (   f
+0003744    i   n   a   l       C   o   l   l   e   c   t   i   o   n   <
+0003760    S   u   b   H   y   p   e   r   p   l   a   n   e   <   E   u
+0003776    c   l   i   d   e   a   n   1   D   >   >       b   o   u   n
+0003792    d   a   r   y   )       {  \n                                
+0003808    s   u   p   e   r   (   b   o   u   n   d   a   r   y   )   ;
+0003824   \n                   }  \n  \n                   /   *   *    
+0003840    B   u   i   l   d       a   n       i   n   s   i   d   e   /
+0003856    o   u   t   s   i   d   e       t   r   e   e       r   e   p
+0003872    r   e   s   e   n   t   i   n   g       a       s   i   n   g
+0003888    l   e       i   n   t   e   r   v   a   l   .  \n            
+0003904            *       @   p   a   r   a   m       l   o   w   e   r
+0003920        l   o   w   e   r       b   o   u   n   d       o   f    
+0003936    t   h   e       i   n   t   e   r   v   a   l   ,       m   u
+0003952    s   t       b   e       l   e   s   s   e   r       o   r    
+0003968    e   q   u   a   l  \n                       *       t   o    
+0003984    {   @   c   o   d   e       u   p   p   e   r   }       (   m
+0004000    a   y       b   e       {   @   c   o   d   e       D   o   u
+0004016    b   l   e   .   N   E   G   A   T   I   V   E   _   I   N   F
+0004032    I   N   I   T   Y   }   )  \n                       *       @
+0004048    p   a   r   a   m       u   p   p   e   r       u   p   p   e
+0004064    r       b   o   u   n   d       o   f       t   h   e       i
+0004080    n   t   e   r   v   a   l   ,       m   u   s   t       b   e
+0004096        g   r   e   a   t   e   r       o   r       e   q   u   a
+0004112    l  \n                       *       t   o       {   @   c   o
+0004128    d   e       l   o   w   e   r   }       (   m   a   y       b
+0004144    e       {   @   c   o   d   e       D   o   u   b   l   e   .
+0004160    P   O   S   I   T   I   V   E   _   I   N   F   I   N   I   T
+0004176    Y   }   )  \n                       *       @   r   e   t   u
+0004192    r   n       t   h   e       b   u   i   l   t       t   r   e
+0004208    e  \n                       *   /  \n                   p   r
+0004224    i   v   a   t   e       s   t   a   t   i   c       B   S   P
+0004240    T   r   e   e   <   E   u   c   l   i   d   e   a   n   1   D
+0004256    >       b   u   i   l   d   T   r   e   e   (   f   i   n   a
+0004272    l       d   o   u   b   l   e       l   o   w   e   r   ,    
+0004288    f   i   n   a   l       d   o   u   b   l   e       u   p   p
+0004304    e   r   )       {  \n                                   i   f
+0004320        (   D   o   u   b   l   e   .   i   s   I   n   f   i   n
+0004336    i   t   e   (   l   o   w   e   r   )       &   &       (   l
+0004352    o   w   e   r       <       0   )   )       {  \n            
+0004368                                        i   f       (   D   o   u
+0004384    b   l   e   .   i   s   I   n   f   i   n   i   t   e   (   u
+0004400    p   p   e   r   )       &   &       (   u   p   p   e   r    
+0004416    >       0   )   )       {  \n                                
+0004432                                    /   /       t   h   e       t
+0004448    r   e   e       m   u   s   t       c   o   v   e   r       t
+0004464    h   e       w   h   o   l   e       r   e   a   l       l   i
+0004480    n   e  \n                                                    
+0004496                r   e   t   u   r   n       n   e   w       B   S
+0004512    P   T   r   e   e   <   E   u   c   l   i   d   e   a   n   1
+0004528    D   >   (   B   o   o   l   e   a   n   .   T   R   U   E   )
+0004544    ;  \n                                                   }  \n
+0004560                                                    /   /       t
+0004576    h   e       t   r   e   e       m   u   s   t       b   e    
+0004592    o   p   e   n       o   n       t   h   e       n   e   g   a
+0004608    t   i   v   e       i   n   f   i   n   i   t   y       s   i
+0004624    d   e  \n                                                   f
+0004640    i   n   a   l       S   u   b   H   y   p   e   r   p   l   a
+0004656    n   e   <   E   u   c   l   i   d   e   a   n   1   D   >    
+0004672    u   p   p   e   r   C   u   t       =  \n                    
+0004688                                                n   e   w       O
+0004704    r   i   e   n   t   e   d   P   o   i   n   t   (   n   e   w
+0004720        V   e   c   t   o   r   1   D   (   u   p   p   e   r   )
+0004736    ,       t   r   u   e   )   .   w   h   o   l   e   H   y   p
+0004752    e   r   p   l   a   n   e   (   )   ;  \n                    
+0004768                                r   e   t   u   r   n       n   e
+0004784    w       B   S   P   T   r   e   e   <   E   u   c   l   i   d
+0004800    e   a   n   1   D   >   (   u   p   p   e   r   C   u   t   ,
+0004816   \n                                                            
+0004832                                                                 
+0004848    n   e   w       B   S   P   T   r   e   e   <   E   u   c   l
+0004864    i   d   e   a   n   1   D   >   (   B   o   o   l   e   a   n
+0004880    .   F   A   L   S   E   )   ,  \n                            
+0004896                                                                 
+0004912                                    n   e   w       B   S   P   T
+0004928    r   e   e   <   E   u   c   l   i   d   e   a   n   1   D   >
+0004944    (   B   o   o   l   e   a   n   .   T   R   U   E   )   ,  \n
+0004960                                                                 
+0004976                                                                n
+0004992    u   l   l   )   ;  \n                                   }  \n
+0005008                                    f   i   n   a   l       S   u
+0005024    b   H   y   p   e   r   p   l   a   n   e   <   E   u   c   l
+0005040    i   d   e   a   n   1   D   >       l   o   w   e   r   C   u
+0005056    t       =  \n                                                
+0005072    n   e   w       O   r   i   e   n   t   e   d   P   o   i   n
+0005088    t   (   n   e   w       V   e   c   t   o   r   1   D   (   l
+0005104    o   w   e   r   )   ,       f   a   l   s   e   )   .   w   h
+0005120    o   l   e   H   y   p   e   r   p   l   a   n   e   (   )   ;
+0005136   \n                                   i   f       (   D   o   u
+0005152    b   l   e   .   i   s   I   n   f   i   n   i   t   e   (   u
+0005168    p   p   e   r   )       &   &       (   u   p   p   e   r    
+0005184    >       0   )   )       {  \n                                
+0005200                    /   /       t   h   e       t   r   e   e    
+0005216    m   u   s   t       b   e       o   p   e   n       o   n    
+0005232    t   h   e       p   o   s   i   t   i   v   e       i   n   f
+0005248    i   n   i   t   y       s   i   d   e  \n                    
+0005264                                r   e   t   u   r   n       n   e
+0005280    w       B   S   P   T   r   e   e   <   E   u   c   l   i   d
+0005296    e   a   n   1   D   >   (   l   o   w   e   r   C   u   t   ,
+0005312   \n                                                            
+0005328                                                                 
+0005344                                                        n   e   w
+0005360        B   S   P   T   r   e   e   <   E   u   c   l   i   d   e
+0005376    a   n   1   D   >   (   B   o   o   l   e   a   n   .   F   A
+0005392    L   S   E   )   ,  \n                                        
+0005408                                                                 
+*
+0005440            n   e   w       B   S   P   T   r   e   e   <   E   u
+0005456    c   l   i   d   e   a   n   1   D   >   (   B   o   o   l   e
+0005472    a   n   .   T   R   U   E   )   ,  \n                        
+0005488                                                                 
+*
+0005520                            n   u   l   l   )   ;  \n            
+0005536                        }  \n  \n                                
+0005552    /   /       t   h   e       t   r   e   e       m   u   s   t
+0005568        b   e       b   o   u   n   d   e   d       o   n       t
+0005584    h   e       t   w   o       s   i   d   e   s  \n            
+0005600                        f   i   n   a   l       S   u   b   H   y
+0005616    p   e   r   p   l   a   n   e   <   E   u   c   l   i   d   e
+0005632    a   n   1   D   >       u   p   p   e   r   C   u   t       =
+0005648   \n                                                   n   e   w
+0005664        O   r   i   e   n   t   e   d   P   o   i   n   t   (   n
+0005680    e   w       V   e   c   t   o   r   1   D   (   u   p   p   e
+0005696    r   )   ,       t   r   u   e   )   .   w   h   o   l   e   H
+0005712    y   p   e   r   p   l   a   n   e   (   )   ;  \n            
+0005728                        r   e   t   u   r   n       n   e   w    
+0005744    B   S   P   T   r   e   e   <   E   u   c   l   i   d   e   a
+0005760    n   1   D   >   (   l   o   w   e   r   C   u   t   ,  \n    
+0005776                                                                 
+*
+0005808                                n   e   w       B   S   P   T   r
+0005824    e   e   <   E   u   c   l   i   d   e   a   n   1   D   >   (
+0005840    B   o   o   l   e   a   n   .   F   A   L   S   E   )   ,  \n
+0005856                                                                 
+*
+0005888                                    n   e   w       B   S   P   T
+0005904    r   e   e   <   E   u   c   l   i   d   e   a   n   1   D   >
+0005920    (   u   p   p   e   r   C   u   t   ,  \n                    
+0005936                                                                 
+*
+0005984                                                    n   e   w    
+0006000    B   S   P   T   r   e   e   <   E   u   c   l   i   d   e   a
+0006016    n   1   D   >   (   B   o   o   l   e   a   n   .   F   A   L
+0006032    S   E   )   ,  \n                                            
+0006048                                                                 
+*
+0006096                            n   e   w       B   S   P   T   r   e
+0006112    e   <   E   u   c   l   i   d   e   a   n   1   D   >   (   B
+0006128    o   o   l   e   a   n   .   T   R   U   E   )   ,  \n        
+0006144                                                                 
+*
+0006192                                                                n
+0006208    u   l   l   )   ,  \n                                        
+0006224                                                                 
+0006240                                                            n   u
+0006256    l   l   )   ;  \n  \n                   }  \n  \n            
+0006272        /   *   *       {   @   i   n   h   e   r   i   t   D   o
+0006288    c   }       *   /  \n                   @   O   v   e   r   r
+0006304    i   d   e  \n                   p   u   b   l   i   c       I
+0006320    n   t   e   r   v   a   l   s   S   e   t       b   u   i   l
+0006336    d   N   e   w   (   f   i   n   a   l       B   S   P   T   r
+0006352    e   e   <   E   u   c   l   i   d   e   a   n   1   D   >    
+0006368    t   r   e   e   )       {  \n                                
+0006384    r   e   t   u   r   n       n   e   w       I   n   t   e   r
+0006400    v   a   l   s   S   e   t   (   t   r   e   e   )   ;  \n    
+0006416                }  \n  \n                   /   *   *       {   @
+0006432    i   n   h   e   r   i   t   D   o   c   }       *   /  \n    
+0006448                @   O   v   e   r   r   i   d   e  \n            
+0006464        p   r   o   t   e   c   t   e   d       v   o   i   d    
+0006480    c   o   m   p   u   t   e   G   e   o   m   e   t   r   i   c
+0006496    a   l   P   r   o   p   e   r   t   i   e   s   (   )       {
+0006512   \n                                   i   f       (   g   e   t
+0006528    T   r   e   e   (   f   a   l   s   e   )   .   g   e   t   C
+0006544    u   t   (   )       =   =       n   u   l   l   )       {  \n
+0006560                                                    s   e   t   B
+0006576    a   r   y   c   e   n   t   e   r   (   V   e   c   t   o   r
+0006592    1   D   .   N   a   N   )   ;  \n                            
+0006608                        s   e   t   S   i   z   e   (   (   (   B
+0006624    o   o   l   e   a   n   )       g   e   t   T   r   e   e   (
+0006640    f   a   l   s   e   )   .   g   e   t   A   t   t   r   i   b
+0006656    u   t   e   (   )   )       ?       D   o   u   b   l   e   .
+0006672    P   O   S   I   T   I   V   E   _   I   N   F   I   N   I   T
+0006688    Y       :       0   )   ;  \n                                
+0006704    }       e   l   s   e       {  \n                            
+0006720                        d   o   u   b   l   e       s   i   z   e
+0006736        =       0   .   0   ;  \n                                
+0006752                    d   o   u   b   l   e       s   u   m       =
+0006768        0   .   0   ;  \n                                        
+0006784            f   o   r       (   f   i   n   a   l       I   n   t
+0006800    e   r   v   a   l       i   n   t   e   r   v   a   l       :
+0006816        a   s   L   i   s   t   (   )   )       {  \n            
+0006832                                                        s   i   z
+0006848    e       +   =       i   n   t   e   r   v   a   l   .   g   e
+0006864    t   S   i   z   e   (   )   ;  \n                            
+0006880                                        s   u   m           +   =
+0006896        i   n   t   e   r   v   a   l   .   g   e   t   S   i   z
+0006912    e   (   )       *       i   n   t   e   r   v   a   l   .   g
+0006928    e   t   B   a   r   y   c   e   n   t   e   r   (   )   ;  \n
+0006944                                                    }  \n        
+0006960                                            s   e   t   S   i   z
+0006976    e   (   s   i   z   e   )   ;  \n                            
+0006992                        i   f       (   D   o   u   b   l   e   .
+0007008    i   s   I   n   f   i   n   i   t   e   (   s   i   z   e   )
+0007024    )       {  \n                                                
+0007040                    s   e   t   B   a   r   y   c   e   n   t   e
+0007056    r   (   V   e   c   t   o   r   1   D   .   N   a   N   )   ;
+0007072   \n                                                   }       e
+0007088    l   s   e       i   f       (   s   i   z   e       >   =    
+0007104    P   r   e   c   i   s   i   o   n   .   S   A   F   E   _   M
+0007120    I   N   )       {  \n                                        
+0007136                            s   e   t   B   a   r   y   c   e   n
+0007152    t   e   r   (   n   e   w       V   e   c   t   o   r   1   D
+0007168    (   s   u   m       /       s   i   z   e   )   )   ;  \n    
+0007184                                                }       e   l   s
+0007200    e       {  \n                                                
+0007216                    s   e   t   B   a   r   y   c   e   n   t   e
+0007232    r   (   (   (   O   r   i   e   n   t   e   d   P   o   i   n
+0007248    t   )       g   e   t   T   r   e   e   (   f   a   l   s   e
+0007264    )   .   g   e   t   C   u   t   (   )   .   g   e   t   H   y
+0007280    p   e   r   p   l   a   n   e   (   )   )   .   g   e   t   L
+0007296    o   c   a   t   i   o   n   (   )   )   ;  \n                
+0007312                                    }  \n                        
+0007328            }  \n                   }  \n  \n                   /
+0007344    *   *       G   e   t       t   h   e       l   o   w   e   s
+0007360    t       v   a   l   u   e       b   e   l   o   n   g   i   n
+0007376    g       t   o       t   h   e       i   n   s   t   a   n   c
+0007392    e   .  \n                       *       @   r   e   t   u   r
+0007408    n       l   o   w   e   s   t       v   a   l   u   e       b
+0007424    e   l   o   n   g   i   n   g       t   o       t   h   e    
+0007440    i   n   s   t   a   n   c   e  \n                       *    
+0007456    (   {   @   c   o   d   e       D   o   u   b   l   e   .   N
+0007472    E   G   A   T   I   V   E   _   I   N   F   I   N   I   T   Y
+0007488    }       i   f       t   h   e       i   n   s   t   a   n   c
+0007504    e       d   o   e   s   n   '   t  \n                       *
+0007520        h   a   v   e       a   n   y       l   o   w       b   o
+0007536    u   n   d   ,       {   @   c   o   d   e       D   o   u   b
+0007552    l   e   .   P   O   S   I   T   I   V   E   _   I   N   F   I
+0007568    N   I   T   Y   }       i   f       t   h   e  \n            
+0007584            *       i   n   s   t   a   n   c   e       i   s    
+0007600    e   m   p   t   y   )  \n                       *   /  \n    
+0007616                p   u   b   l   i   c       d   o   u   b   l   e
+0007632        g   e   t   I   n   f   (   )       {  \n                
+0007648                    B   S   P   T   r   e   e   <   E   u   c   l
+0007664    i   d   e   a   n   1   D   >       n   o   d   e       =    
+0007680    g   e   t   T   r   e   e   (   f   a   l   s   e   )   ;  \n
+0007696                                    d   o   u   b   l   e        
+0007712    i   n   f           =       D   o   u   b   l   e   .   P   O
+0007728    S   I   T   I   V   E   _   I   N   F   I   N   I   T   Y   ;
+0007744   \n                                   w   h   i   l   e       (
+0007760    n   o   d   e   .   g   e   t   C   u   t   (   )       !   =
+0007776        n   u   l   l   )       {  \n                            
+0007792                        f   i   n   a   l       O   r   i   e   n
+0007808    t   e   d   P   o   i   n   t       o   p       =       (   O
+0007824    r   i   e   n   t   e   d   P   o   i   n   t   )       n   o
+0007840    d   e   .   g   e   t   C   u   t   (   )   .   g   e   t   H
+0007856    y   p   e   r   p   l   a   n   e   (   )   ;  \n            
+0007872                                        i   n   f           =    
+0007888    o   p   .   g   e   t   L   o   c   a   t   i   o   n   (   )
+0007904    .   g   e   t   X   (   )   ;  \n                            
+0007920                        n   o   d   e       =       o   p   .   i
+0007936    s   D   i   r   e   c   t   (   )       ?       n   o   d   e
+0007952    .   g   e   t   M   i   n   u   s   (   )       :       n   o
+0007968    d   e   .   g   e   t   P   l   u   s   (   )   ;  \n        
+0007984                            }  \n                                
+0008000    r   e   t   u   r   n       (   (   B   o   o   l   e   a   n
+0008016    )       n   o   d   e   .   g   e   t   A   t   t   r   i   b
+0008032    u   t   e   (   )   )       ?       D   o   u   b   l   e   .
+0008048    N   E   G   A   T   I   V   E   _   I   N   F   I   N   I   T
+0008064    Y       :       i   n   f   ;  \n                   }  \n  \n
+0008080                    /   *   *       G   e   t       t   h   e    
+0008096    h   i   g   h   e   s   t       v   a   l   u   e       b   e
+0008112    l   o   n   g   i   n   g       t   o       t   h   e       i
+0008128    n   s   t   a   n   c   e   .  \n                       *    
+0008144    @   r   e   t   u   r   n       h   i   g   h   e   s   t    
+0008160    v   a   l   u   e       b   e   l   o   n   g   i   n   g    
+0008176    t   o       t   h   e       i   n   s   t   a   n   c   e  \n
+0008192                        *       (   {   @   c   o   d   e       D
+0008208    o   u   b   l   e   .   P   O   S   I   T   I   V   E   _   I
+0008224    N   F   I   N   I   T   Y   }       i   f       t   h   e    
+0008240    i   n   s   t   a   n   c   e       d   o   e   s   n   '   t
+0008256   \n                       *       h   a   v   e       a   n   y
+0008272        h   i   g   h       b   o   u   n   d   ,       {   @   c
+0008288    o   d   e       D   o   u   b   l   e   .   N   E   G   A   T
+0008304    I   V   E   _   I   N   F   I   N   I   T   Y   }       i   f
+0008320        t   h   e  \n                       *       i   n   s   t
+0008336    a   n   c   e       i   s       e   m   p   t   y   )  \n    
+0008352                    *   /  \n                   p   u   b   l   i
+0008368    c       d   o   u   b   l   e       g   e   t   S   u   p   (
+0008384    )       {  \n                                   B   S   P   T
+0008400    r   e   e   <   E   u   c   l   i   d   e   a   n   1   D   >
+0008416        n   o   d   e       =       g   e   t   T   r   e   e   (
+0008432    f   a   l   s   e   )   ;  \n                                
+0008448    d   o   u   b   l   e           s   u   p           =       D
+0008464    o   u   b   l   e   .   N   E   G   A   T   I   V   E   _   I
+0008480    N   F   I   N   I   T   Y   ;  \n                            
+0008496        w   h   i   l   e       (   n   o   d   e   .   g   e   t
+0008512    C   u   t   (   )       !   =       n   u   l   l   )       {
+0008528   \n                                                   f   i   n
+0008544    a   l       O   r   i   e   n   t   e   d   P   o   i   n   t
+0008560        o   p       =       (   O   r   i   e   n   t   e   d   P
+0008576    o   i   n   t   )       n   o   d   e   .   g   e   t   C   u
+0008592    t   (   )   .   g   e   t   H   y   p   e   r   p   l   a   n
+0008608    e   (   )   ;  \n                                            
+0008624        s   u   p           =       o   p   .   g   e   t   L   o
+0008640    c   a   t   i   o   n   (   )   .   g   e   t   X   (   )   ;
+0008656   \n                                                   n   o   d
+0008672    e       =       o   p   .   i   s   D   i   r   e   c   t   (
+0008688    )       ?       n   o   d   e   .   g   e   t   P   l   u   s
+0008704    (   )       :       n   o   d   e   .   g   e   t   M   i   n
+0008720    u   s   (   )   ;  \n                                   }  \n
+0008736                                    r   e   t   u   r   n       (
+0008752    (   B   o   o   l   e   a   n   )       n   o   d   e   .   g
+0008768    e   t   A   t   t   r   i   b   u   t   e   (   )   )       ?
+0008784        D   o   u   b   l   e   .   P   O   S   I   T   I   V   E
+0008800    _   I   N   F   I   N   I   T   Y       :       s   u   p   ;
+0008816   \n                   }  \n  \n                   /   *   *    
+0008832    B   u   i   l   d       a   n       o   r   d   e   r   e   d
+0008848        l   i   s   t       o   f       i   n   t   e   r   v   a
+0008864    l   s       r   e   p   r   e   s   e   n   t   i   n   g    
+0008880    t   h   e       i   n   s   t   a   n   c   e   .  \n        
+0008896                *       <   p   >   T   h   i   s       m   e   t
+0008912    h   o   d       b   u   i   l   d   s       t   h   i   s    
+0008928    i   n   t   e   r   v   a   l   s       s   e   t       a   s
+0008944        a   n       o   r   d   e   r   e   d       l   i   s   t
+0008960        o   f  \n                       *       {   @   l   i   n
+0008976    k       I   n   t   e   r   v   a   l       I   n   t   e   r
+0008992    v   a   l   }       e   l   e   m   e   n   t   s   .       I
+0009008    f       t   h   e       i   n   t   e   r   v   a   l   s    
+0009024    s   e   t       h   a   s       n   o  \n                    
+0009040    *       l   o   w   e   r       l   i   m   i   t   ,       t
+0009056    h   e       f   i   r   s   t       i   n   t   e   r   v   a
+0009072    l       w   i   l   l       h   a   v   e       i   t   s    
+0009088    l   o   w       b   o   u   n   d       e   q   u   a   l    
+0009104    t   o  \n                       *       {   @   c   o   d   e
+0009120        D   o   u   b   l   e   .   N   E   G   A   T   I   V   E
+0009136    _   I   N   F   I   N   I   T   Y   }   .       I   f       t
+0009152    h   e       i   n   t   e   r   v   a   l   s       s   e   t
+0009168        h   a   s  \n                       *       n   o       u
+0009184    p   p   e   r       l   i   m   i   t   ,       t   h   e    
+0009200    l   a   s   t       i   n   t   e   r   v   a   l       w   i
+0009216    l   l       h   a   v   e       i   t   s       u   p   p   e
+0009232    r       b   o   u   n   d       e   q   u   a   l  \n        
+0009248                *       t   o       {   @   c   o   d   e       D
+0009264    o   u   b   l   e   .   P   O   S   I   T   I   V   E   _   I
+0009280    N   F   I   N   I   T   Y   }   .       A   n       e   m   p
+0009296    t   y       t   r   e   e       w   i   l   l  \n            
+0009312            *       b   u   i   l   d       a   n       e   m   p
+0009328    t   y       l   i   s   t       w   h   i   l   e       a    
+0009344    t   r   e   e       r   e   p   r   e   s   e   n   t   i   n
+0009360    g       t   h   e       w   h   o   l   e       r   e   a   l
+0009376        l   i   n   e  \n                       *       w   i   l
+0009392    l       b   u   i   l   d       a       o   n   e       e   l
+0009408    e   m   e   n   t       l   i   s   t       w   i   t   h    
+0009424    b   o   t   h       b   o   u   n   d   s       b   e   e   i
+0009440    n   g  \n                       *       i   n   f   i   n   i
+0009456    t   e   .   <   /   p   >  \n                       *       @
+0009472    r   e   t   u   r   n       a       n   e   w       o   r   d
+0009488    e   r   e   d       l   i   s   t       c   o   n   t   a   i
+0009504    n   i   n   g       {   @   l   i   n   k       I   n   t   e
+0009520    r   v   a   l       I   n   t   e   r   v   a   l   }  \n    
+0009536                    *       e   l   e   m   e   n   t   s  \n    
+0009552                    *   /  \n                   p   u   b   l   i
+0009568    c       L   i   s   t   <   I   n   t   e   r   v   a   l   >
+0009584        a   s   L   i   s   t   (   )       {  \n                
+0009600                    f   i   n   a   l       L   i   s   t   <   I
+0009616    n   t   e   r   v   a   l   >       l   i   s   t       =    
+0009632    n   e   w       A   r   r   a   y   L   i   s   t   <   I   n
+0009648    t   e   r   v   a   l   >   (   )   ;  \n                    
+0009664                r   e   c   u   r   s   e   L   i   s   t   (   g
+0009680    e   t   T   r   e   e   (   f   a   l   s   e   )   ,       l
+0009696    i   s   t   ,  \n                                            
+0009712                                        D   o   u   b   l   e   .
+0009728    N   E   G   A   T   I   V   E   _   I   N   F   I   N   I   T
+0009744    Y   ,       D   o   u   b   l   e   .   P   O   S   I   T   I
+0009760    V   E   _   I   N   F   I   N   I   T   Y   )   ;  \n        
+0009776                            r   e   t   u   r   n       l   i   s
+0009792    t   ;  \n                   }  \n  \n                   /   *
+0009808    *       U   p   d   a   t   e       a   n       i   n   t   e
+0009824    r   v   a   l   s       l   i   s   t   .  \n                
+0009840        *       @   p   a   r   a   m       n   o   d   e       c
+0009856    u   r   r   e   n   t       n   o   d   e  \n                
+0009872        *       @   p   a   r   a   m       l   i   s   t       l
+0009888    i   s   t       t   o       u   p   d   a   t   e  \n        
+0009904                *       @   p   a   r   a   m       l   o   w   e
+0009920    r       l   o   w   e   r       b   o   u   n   d       o   f
+0009936        t   h   e       c   u   r   r   e   n   t       c   o   n
+0009952    v   e   x       c   e   l   l  \n                       *    
+0009968    @   p   a   r   a   m       u   p   p   e   r       u   p   p
+0009984    e   r       b   o   u   n   d       o   f       t   h   e    
+0010000    c   u   r   r   e   n   t       c   o   n   v   e   x       c
+0010016    e   l   l  \n                       *   /  \n                
+0010032    p   r   i   v   a   t   e       v   o   i   d       r   e   c
+0010048    u   r   s   e   L   i   s   t   (   f   i   n   a   l       B
+0010064    S   P   T   r   e   e   <   E   u   c   l   i   d   e   a   n
+0010080    1   D   >       n   o   d   e   ,  \n                        
+0010096                                                                 
+0010112                                f   i   n   a   l       L   i   s
+0010128    t   <   I   n   t   e   r   v   a   l   >       l   i   s   t
+0010144    ,  \n                                                        
+0010160                                                                f
+0010176    i   n   a   l       d   o   u   b   l   e       l   o   w   e
+0010192    r   ,       f   i   n   a   l       d   o   u   b   l   e    
+0010208    u   p   p   e   r   )       {  \n  \n                        
+0010224            i   f       (   n   o   d   e   .   g   e   t   C   u
+0010240    t   (   )       =   =       n   u   l   l   )       {  \n    
+0010256                                                i   f       (   (
+0010272    B   o   o   l   e   a   n   )       n   o   d   e   .   g   e
+0010288    t   A   t   t   r   i   b   u   t   e   (   )   )       {  \n
+0010304                                                                 
+0010320    /   /       t   h   i   s       l   e   a   f       c   e   l
+0010336    l       i   s       a   n       i   n   s   i   d   e       c
+0010352    e   l   l   :       a   n       i   n   t   e   r   v   a   l
+0010368   \n                                                            
+0010384        l   i   s   t   .   a   d   d   (   n   e   w       I   n
+0010400    t   e   r   v   a   l   (   l   o   w   e   r   ,       u   p
+0010416    p   e   r   )   )   ;  \n                                    
+0010432                }  \n                                   }       e
+0010448    l   s   e       {  \n                                        
+0010464            f   i   n   a   l       O   r   i   e   n   t   e   d
+0010480    P   o   i   n   t       o   p           =       (   O   r   i
+0010496    e   n   t   e   d   P   o   i   n   t   )       n   o   d   e
+0010512    .   g   e   t   C   u   t   (   )   .   g   e   t   H   y   p
+0010528    e   r   p   l   a   n   e   (   )   ;  \n                    
+0010544                                f   i   n   a   l       V   e   c
+0010560    t   o   r   1   D                               l   o   c    
+0010576    =       o   p   .   g   e   t   L   o   c   a   t   i   o   n
+0010592    (   )   ;  \n                                                
+0010608    d   o   u   b   l   e                                        
+0010624                    x               =       l   o   c   .   g   e
+0010640    t   X   (   )   ;  \n  \n                                    
+0010656                /   /       m   a   k   e       s   u   r   e    
+0010672    w   e       e   x   p   l   o   r   e       t   h   e       t
+0010688    r   e   e       i   n       i   n   c   r   e   a   s   i   n
+0010704    g       o   r   d   e   r  \n                                
+0010720                    f   i   n   a   l       B   S   P   T   r   e
+0010736    e   <   E   u   c   l   i   d   e   a   n   1   D   >       l
+0010752    o   w           =  \n                                        
+0010768                            o   p   .   i   s   D   i   r   e   c
+0010784    t   (   )       ?       n   o   d   e   .   g   e   t   M   i
+0010800    n   u   s   (   )       :       n   o   d   e   .   g   e   t
+0010816    P   l   u   s   (   )   ;  \n                                
+0010832                    f   i   n   a   l       B   S   P   T   r   e
+0010848    e   <   E   u   c   l   i   d   e   a   n   1   D   >       h
+0010864    i   g   h       =  \n                                        
+0010880                            o   p   .   i   s   D   i   r   e   c
+0010896    t   (   )       ?       n   o   d   e   .   g   e   t   P   l
+0010912    u   s   (   )           :       n   o   d   e   .   g   e   t
+0010928    M   i   n   u   s   (   )   ;  \n  \n                        
+0010944                            r   e   c   u   r   s   e   L   i   s
+0010960    t   (   l   o   w   ,       l   i   s   t   ,       l   o   w
+0010976    e   r   ,       x   )   ;  \n                                
+0010992                    i   f       (   (   c   h   e   c   k   P   o
+0011008    i   n   t   (   l   o   w   ,           l   o   c   )       =
+0011024    =       L   o   c   a   t   i   o   n   .   I   N   S   I   D
+0011040    E   )       &   &  \n                                        
+0011056                            (   c   h   e   c   k   P   o   i   n
+0011072    t   (   h   i   g   h   ,       l   o   c   )       =   =    
+0011088    L   o   c   a   t   i   o   n   .   I   N   S   I   D   E   )
+0011104    )       {  \n                                                
+0011120                    /   /       m   e   r   g   e       t   h   e
+0011136        l   a   s   t       i   n   t   e   r   v   a   l       a
+0011152    d   d   e   d       a   n   d       t   h   e       f   i   r
+0011168    s   t       o   n   e       o   f       t   h   e       h   i
+0011184    g   h       s   u   b   -   t   r   e   e  \n                
+0011200                                                    x       =    
+0011216    l   i   s   t   .   r   e   m   o   v   e   (   l   i   s   t
+0011232    .   s   i   z   e   (   )       -       1   )   .   g   e   t
+0011248    I   n   f   (   )   ;  \n                                    
+0011264                }  \n                                            
+0011280        r   e   c   u   r   s   e   L   i   s   t   (   h   i   g
+0011296    h   ,       l   i   s   t   ,       x   ,       u   p   p   e
+0011312    r   )   ;  \n  \n                                   }  \n  \n
+0011328                    }  \n  \n   }  \n                            
+0011337

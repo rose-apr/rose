@@ -1,0 +1,3 @@
+[submodule "src/rose"]
+	path = src/rose
+	url = https://github.com/StevenReiss/rose.git

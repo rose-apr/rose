@@ -1,0 +1,40 @@
+/********************************************************************************/
+/*                                                                              */
+/*              BugMath10.java                                                  */
+/*                                                                              */
+/*      description of class                                                    */
+/*                                                                              */
+/********************************************************************************/
+/*      Copyright 2011 Brown University -- Steven P. Reiss                    */
+
+package edu.brown.cs.d4jspr;
+
+import org.apache.commons.math3.analysis.differentiation.DerivativeStructure;
+
+public class BugMath10 implements BugConstants
+{
+
+
+
+public static void main(String [] args)
+{
+   testMath10();
+}
+
+
+public static void testMath10()
+{
+   DerivativeStructure pp =
+      DerivativeStructure.atan2(new DerivativeStructure(2, 2, 1, +0.0),
+            new DerivativeStructure(2, 2, 1, +0.0));
+   assert Math.abs(pp.getValue()) < 1e-15;
+} 
+
+
+}       // end of class BugMath10
+
+
+
+
+/* end of BugMath10.java */
+

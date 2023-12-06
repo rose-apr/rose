@@ -1,0 +1,5 @@
+<FAIT>
+   <CLASS NAME='org.joda.time.format.DateTimeForatterBuilder' SCAN='TRUE' INLINE='NONE' />
+   <CLASS NAME='org.joda.time.format.DateTimeForatterBuilder$Composite' SCAN='TRUE' INLINE='NONE' />
+   <CLASS NAME='org.joda.time.format.DateTimeForatterBuilder.Composite' SCAN='TRUE' INLINE='NONE' />
+</FAIT>

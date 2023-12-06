@@ -1,0 +1,6 @@
+<FAIT>
+   <CLASS NAME='org.joda.time.format.DateTimeFormatterBuilder$Composite' SCAN='TRUE' INLINE='NONE' />
+   <CLASS NAME='org.joda.time.format.DateTimeFormatterBuilder.Composite' SCAN='TRUE' INLINE='NONE' />
+   <METHOD NAME='org.joda.time.chrono.AssembledChronology.setFields' SCAN='TRUE' INLINE='NONE' />
+   <METHOD NAME='org.joda.time.format.DateTimeFormatterBuilder.getFormatter' SCAN='TRUE' INLINE='NONE' />
+</FAIT>

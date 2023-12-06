@@ -1,0 +1,68 @@
+2021-07-15 15:09:40.293 GMT Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database '/Users/spr/Eclipse/d4jmath/.bubbles/ProgrammersLog' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at edu.brown.cs.bubbles.bnote.BnoteConnect.getLogDatabase(BnoteConnect.java:236)
+	at edu.brown.cs.bubbles.bnote.BnoteDatabase.<init>(BnoteDatabase.java:123)
+	at edu.brown.cs.bubbles.bnote.BnoteStore.<init>(BnoteStore.java:113)
+	at edu.brown.cs.bubbles.bnote.BnoteStore.createStore(BnoteStore.java:135)
+	at edu.brown.cs.bubbles.bnote.BnoteFactory.<init>(BnoteFactory.java:76)
+	at edu.brown.cs.bubbles.bnote.BnoteFactory.<clinit>(BnoteFactory.java:59)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:374)
+	at edu.brown.cs.bubbles.bema.BemaMain.setupPackage(BemaMain.java:728)
+	at edu.brown.cs.bubbles.bema.BemaMain.start(BemaMain.java:471)
+	at edu.brown.cs.bubbles.bema.BemaMain.main(BemaMain.java:120)
+Caused by: java.sql.SQLException: Database '/Users/spr/Eclipse/d4jmath/.bubbles/ProgrammersLog' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 25 more
+============= begin nested exception, level (1) ===========
+java.sql.SQLException: Database '/Users/spr/Eclipse/d4jmath/.bubbles/ProgrammersLog' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at edu.brown.cs.bubbles.bnote.BnoteConnect.getLogDatabase(BnoteConnect.java:236)
+	at edu.brown.cs.bubbles.bnote.BnoteDatabase.<init>(BnoteDatabase.java:123)
+	at edu.brown.cs.bubbles.bnote.BnoteStore.<init>(BnoteStore.java:113)
+	at edu.brown.cs.bubbles.bnote.BnoteStore.createStore(BnoteStore.java:135)
+	at edu.brown.cs.bubbles.bnote.BnoteFactory.<init>(BnoteFactory.java:76)
+	at edu.brown.cs.bubbles.bnote.BnoteFactory.<clinit>(BnoteFactory.java:59)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:374)
+	at edu.brown.cs.bubbles.bema.BemaMain.setupPackage(BemaMain.java:728)
+	at edu.brown.cs.bubbles.bema.BemaMain.start(BemaMain.java:471)
+	at edu.brown.cs.bubbles.bema.BemaMain.main(BemaMain.java:120)
+============= end nested exception, level (1) ===========
+Cleanup action completed
+----------------------------------------------------------------
+2021-07-15 15:09:40.401 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-017a-aab7-57c3-000012e03e38
+on database directory /Users/spr/Eclipse/d4jmath/.bubbles/ProgrammersLog  
+
+Database Class Loader started - derby.database.classpath=''

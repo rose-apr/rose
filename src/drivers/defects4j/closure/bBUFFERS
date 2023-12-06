@@ -1,0 +1,93 @@
+BF_R
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/general/AbstractDataset.ja
+va' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/axis/PeriodAxis
+.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/time/SerialDa
+te.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/plot/FastS
+catterPlot.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/ut
+il/AbstractObjectList.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfr
+ee/data/general/AbstractSeriesDataset.java' />\361<FILE NAME='/pro/d4jspr
+/javasrc/org/jfree/data/category/CategoryToPieDataset.java' />\361<FILE N
+AME='/pro/d4jspr/javasrc/org/jfree/chart/axis/ValueAxis.java' />\361<FILE
+ NAME='/pro/d4jspr/javasrc/org/jfree/chart/plot/CombinedRangeCategoryPlot
+.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/event/Dataset
+ChangeListener.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data
+/general/SeriesException.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/
+jfree/chart/plot/Plot.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfr
+ee/chart/plot/CombinedDomainCategoryPlot.java' />\361<FILE NAME='/pro/d4j
+spr/javasrc/org/jfree/chart/ChartPanel.java' />\361<FILE NAME='/pro/d4jsp
+r/javasrc/org/jfree/data/event/SeriesChangeListener.java' />\361<FILE NAM
+E='/pro/d4jspr/javasrc/org/jfree/chart/renderer/xy/AbstractXYItemRenderer
+.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/util/ObjectL
+ist.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/time/TimeS
+eriesDataItem.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart
+/axis/Axis.java' />\361<FILE NAME='/pro/d4jspr/javasrc/edu/brown/cs/d4jsp
+r/BugChart03.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/t
+ime/RegularTimePeriod.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfr
+ee/chart/plot/Zoomable.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jf
+ree/data/SelectableValue.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/
+jfree/data/KeyedObjects.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/j
+free/chart/event/AxisChangeEvent.java' />\361<FILE NAME='/pro/d4jspr/java
+src/org/jfree/chart/JFreeChart.java' />\361<FILE NAME='/pro/d4jspr/javasr
+c/org/jfree/data/time/Year.java' />\361<FILE NAME='/pro/d4jspr/javasrc/or
+g/jfree/data/UnknownKeyException.java' />\361<FILE NAME='/pro/d4jspr/java
+src/org/jfree/data/time/TimeSeries.java' />\361<FILE NAME='/pro/d4jspr/ja
+vasrc/org/jfree/chart/renderer/category/StatisticalBarRenderer.java' />\361
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/time/Month.java' />\361<FI
+LE NAME='/pro/d4jspr/javasrc/org/jfree/chart/annotations/XYDataImageAnnot
+ation.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/xy/Abstr
+actXYDataset.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/
+renderer/category/CategoryItemRenderer.java' />\361<FILE NAME='/pro/d4jsp
+r/javasrc/org/jfree/data/Value.java' />\361<FILE NAME='/pro/d4jspr/javasr
+c/org/jfree/chart/event/DatasetChangeInfo.java' />\361<FILE NAME='/pro/d4
+jspr/javasrc/org/jfree/chart/event/AxisChangeListener.java' />\361<FILE N
+AME='/pro/d4jspr/javasrc/org/jfree/chart/event/PlotChangeEvent.java' />\361
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/KeyedObject.java' />\361<F
+ILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/plot/PolarPlot.java' />\361
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/axis/SymbolAxis.java' />\361
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/category/DefaultCategoryDa
+taset.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/xy/OHLCD
+ataset.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/plot/T
+hermometerPlot.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/char
+t/plot/CombinedRangeXYPlot.java' />\361<FILE NAME='/pro/d4jspr/javasrc/or
+g/jfree/data/RangeInfo.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jf
+ree/chart/event/PlotChangeListener.java' />\361<FILE NAME='/pro/d4jspr/ja
+vasrc/org/jfree/data/general/DatasetUtilities.java' />\361<FILE NAME='/pr
+o/d4jspr/javasrc/org/jfree/chart/renderer/category/AbstractCategoryItemRe
+nderer.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/axis/D
+ateAxis.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/rende
+rer/xy/XYItemRenderer.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfr
+ee/data/time/TimeSeriesCollection.java' />\361<FILE NAME='/pro/d4jspr/jav
+asrc/org/jfree/data/general/Series.java' />\361<FILE NAME='/pro/d4jspr/ja
+vasrc/org/jfree/chart/plot/ValueAxisPlot.java' />\361<FILE NAME='/pro/d4j
+spr/javasrc/org/jfree/chart/plot/XYPlot.java' />\361<FILE NAME='/pro/d4js
+pr/javasrc/org/jfree/data/xy/IntervalXYDataset.java' />\361<FILE NAME='/p
+ro/d4jspr/javasrc/org/jfree/data/xy/AbstractIntervalXYDataset.java' />\361
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/axis/NumberAxis.java' />\361
+<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/plot/CombinedDomainXYPlot
+.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/plot/Categor
+yPlot.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/data/event/Da
+tasetChangeEvent.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/da
+ta/time/DateRange.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/d
+ata/general/SeriesDataset.java' />\361<FILE NAME='/pro/d4jspr/javasrc/org
+/jfree/chart/renderer/category/BarRenderer.java' />\361<FILE NAME='/pro/d
+4jspr/javasrc/org/jfree/data/xy/XYDataset.java' />\361<FILE NAME='/pro/d4
+jspr/javasrc/org/jfree/data/Range.java' />\361<FILE NAME='/pro/d4jspr/jav
+asrc/org/jfree/data/event/SeriesChangeEvent.java' />\361<FILE NAME='/pro/
+d4jspr/javasrc/org/jfree/chart/event/ChartChangeEvent.java' />\361<FILE N
+AME='/pro/d4jspr/javasrc/org/jfree/data/KeyedObjects2D.java' />\361<FILE 
+NAME='/pro/d4jspr/javasrc/org/jfree/chart/renderer/AbstractRenderer.java'
+ />\361<FILE NAME='/pro/d4jspr/javasrc/org/jfree/chart/util/BooleanList.j
+ava' />\361\361
+
+BF_S
+ATCH='*' />
+
+BF_W
+\372\346
+
+BF_X
+'
+
+BF_Y
+         <MATCH><![CDATA[HOUR_OF_DAY]]></MATCH>\361
+

@@ -1,0 +1,53 @@
+,Repaired Errors Reported,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BugName,jGenProg,jKali,Nopol,jMutRepair,ACS,JAID,ssFix,CapGen,SketchFix,LSRepair,SimFix,kPAR,HDRepair,Tbar,Hercules,DLFix,Confix,ARJA,SequenceR,CoCoNut,CURE,sharpFix,DEAR,TRANSFER,Recoder,KNOD,AlphaRepair,SelfAPR,Repilot,Gamma,In-the-era-codex,T5APR,ChatGPT,CodeX,ChatRepair
+BitCount,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,F,T,T
+BreadthFirstSearch,F,F,F,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,F,T,T,T,F,T
+BucketSort,F,F,F,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,T,T,T
+DepthFirstSearch,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,T,/,/,T,T,T,F,T,T
+DetectCycle,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,T,T,T,F,F,T
+FindFirstInSorted,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,T,F,T
+FindInSorted,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,T,T,T,T,F,T
+Flatten,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,F,/,/,T,F,F,T,F,T
+Gcd,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,F,T,T,F,T,T
+GetFactors,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,F,F,/,/,F,T,F,T,F,T
+Hanoi,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,F,F,T
+IsValidParenthesization,F,F,F,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,T,T,/,/,T,T,T,T,T,T
+KHeapSort,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,F,/,/,F,T,F,F,F,T
+Knapsack,F,F,F,T,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,T,T,T
+Kth,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,F,/,/,F,T,F,F,T,T
+LcsLength,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,T,/,/,F,F,F,F,F,T
+Levenshtein,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,T,T,T,F,T,T
+Lis,T,F,T,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,F,/,/,F,T,T,F,F,T
+LongestCommonSubsequence,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,F,T,F,F,T,T
+MaxSublistSum,F,F,F,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,T,F,/,/,F,T,F,F,T,T
+MergeSort,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,T,/,/,T,T,T,T,T,T
+MinimumSpanningTree,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,F,/,/,F,T,F,F,F,T
+NextPalindrome,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,F,T,/,/,T,T,T,T,F,T
+NextPermutation,F,F,F,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,F,F,T
+Pascal,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,F,T,T,F,T
+PossibleChange,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,F,T,/,/,F,T,F,T,F,T
+PowerSet,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,F,/,/,F,F,F,F,F,T
+QuickSort,F,T,T,T,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,T,F,T
+ReverseLinkedList,F,F,F,F,/,T,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,T,F,/,/,T,T,T,T,T,T
+RpnEval,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,T,/,/,T,T,T,F,F,T
+ShortestPathLength,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,F,T,/,/,F,T,F,T,F,T
+ShortestPathLengths,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,T,/,/,T,T,T,F,F,T
+ShortestPaths,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,F,T,/,/,F,T,T,T,F,T
+ShuntingYard,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,T,T,/,/,F,T,F,T,F,T
+Sieve,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,T,T,T,F,T,T
+Sqrt,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,T,/,/,T,T,F,T,F,T
+Subsequences,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,F,/,/,/,N/A,F,F,/,/,F,T,F,T,F,T
+ToBase,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,F,T,/,/,/,N/A,T,F,/,/,F,T,F,F,F,T
+TopologicalOrdering,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,T,/,/,/,N/A,T,F,/,/,T,F,T,F,F,T
+Wrap,F,F,F,F,/,F,/,/,/,/,/,/,/,/,/,/,/,/,/,T,F,/,/,/,N/A,T,T,/,/,F,T,T,F,T,T
+Count,1,1,2,2,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,13,25,0,0,0,0,25,28,0,0,22,35,25,19,14,40
+,,,,,,,,,,,,,,,,,,,,,,,,,17,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Repair Time Reported,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Statistics,jGenProg,jKali,Nopol,jMutRepair,ACS,JAID,ssFix,CapGen,SketchFix,LSRepair,SimFix,kPAR,HDRepair,Tbar,Hercules,DLFix,Confix,ARJA,SequenceR,CoCoNut,CURE,sharpFix,DEAR,TRANSFER,Recoder,KNOD,AlphaRepair,SelfAPR,Repilot,Gamma,In-the-era,T5APR,ChatGPT,CodeX,ChatRepair
+Median,/,/,/,/,/,<20m,/,/,/,/,/,/,/,/,/,/,/,/,/,N/A,N/A,/,/,/,5h timeout,N/A,5h timeout,/,/,5h timeout,N/A,48s,N/A,N/A,5h timeout
+Average,/,/,/,/,/,N/A,/,/,/,/,/,/,/,/,,,/,/,/,N/A,19m,/,,,,12.8s / generate 1000 candidates (5h timeout),,/,/,,N/A,4m12s,N/A,N/A,
+Min,/,/,/,/,/,<20m,/,/,/,/,/,/,/,/,,,/,/,/,N/A,N/A,/,,,,N/A,,/,/,,N/A,7s,N/A,N/A,
+Max,/,/,/,/,/,>200m,/,/,/,/,/,/,/,/,,,/,/,/,N/A,N/A,/,,,,N/A,,/,/,,N/A,29m58s,N/A,N/A,
+Paper Link,https://www.sciencedirect.com/science/article/pii/S0164121220302193?via%3Dihub,,,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7985681,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8972483,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8115676,https://tjusail.github.io/people/chenjunjie/files/ICSE18.pdf,https://dl.acm.org/doi/pdf/10.1145/3180155.3180245,https://www.darkrsw.net/papers/APSEC2018.pdf,http://hongyujohn.github.io/Shaping.pdf,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8730164,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7476644,https://www.darkrsw.net/papers/ISSTA2019.pdf,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8812131,https://dl.acm.org/doi/pdf/10.1145/3377811.3380345,https://raw.githubusercontent.com/wiki/thwak/confix2018result/confix.pdf,https://yyxhdy.github.io/files/TSE2018.pdf,https://www.cs.wm.edu/~denys/pubs/seq2seq4repair_TSE_cameraready.pdf,https://dl.acm.org/doi/pdf/10.1145/3395363.3397369,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9401997,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8823627,https://dl.acm.org/doi/pdf/10.1145/3510003.3510177,https://dl.acm.org/doi/pdf/10.1145/3510003.3510147,https://xiongyingfei.github.io/papers/FSE21b.pdf,https://www.cs.purdue.edu/homes/lintan/publications/knod-icse23.pdf,http://lingming.cs.illinois.edu/publications/fse2022a.pdf,https://dl.acm.org/doi/pdf/10.1145/3551349.3556926,https://arxiv.org/pdf/2309.00608.pdf,https://arxiv.org/pdf/2309.09308.pdf,https://lingming.cs.illinois.edu/publications/icse2023a.pdf,https://arxiv.org/pdf/2309.15742.pdf,https://arxiv.org/pdf/2301.08653.pdf,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9809175,https://arxiv.org/pdf/2304.00385.pdf
+Data Link,https://github.com/ASSERT-KTH/quixbugs-experiment/blob/master/assessment_report/Assessments.md,,,,https://github.com/Adobee/ACS,https://bitbucket.org/maxpei/jaid/wiki/results.md,https://github.com/qixin5/ssFix/tree/master/expt0/patch/ssFix,https://github.com/justinwm/CapGen,,https://github.com/TruX-DTF/LSRepair,https://github.com/xgdsmileboy/SimFix,https://github.com/TruX-DTF/FL-VS-APR,https://github.com/xuanbachle/bugfixes/blob/master/fixed.txt,https://github.com/TruX-DTF/TBar,,/,/,https://github.com/yyxhdy/arja-supplemental/blob/master/arja-supplemental.pdf,https://github.com/ASSERT-KTH/sequencer,https://github.com/lin-tan/CoCoNut-Artifact/blob/master/Results/Results.xlsx,https://github.com/lin-tan/CURE/tree/master/results/Defects4Jv1.2,https://github.com/sharpFix18/sharpFix,https://drive.google.com/file/d/1yxbXAVlZ81wKY9wVox4YFcQ3fBDuGHCu/view,,https://github.com/pkuzqh/Recoder,https://github.com/lin-tan/knod/tree/main/results/defects4jv1.2,https://zenodo.org/record/6819444#.ZFXpLOxBz8Y,https://github.com/ASSERT-KTH/SelfAPR/tree/main/result,https://github.com/ise-uiuc/Repilot,https://github.com/iSEngLab/GAMMA,https://zenodo.org/records/7592886,https://github.com/h4iku/T5APR/tree/main/results/QuixBugs-Java/outputs-multi/plausible_patches_100,,,

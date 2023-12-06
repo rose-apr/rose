@@ -1,0 +1,51 @@
+/********************************************************************************/
+/*										*/
+/*		BugLang06.java							*/
+/*										*/
+/*	Defects4J bug Lang_6							*/
+/*										*/
+/********************************************************************************/
+/*	Copyright 2011 Brown University -- Steven P. Reiss		      */
+
+
+package edu.brown.cs.d4jspr;
+
+import org.jfree.chart.LegendItemCollection;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.renderer.category.AbstractCategoryItemRenderer;
+import org.jfree.chart.renderer.category.LineAndShapeRenderer;
+import org.jfree.data.category.DefaultCategoryDataset;
+
+public class BugLang06 implements BugConstants
+{
+
+
+public static void main(String [] args)
+{
+   testLang06();
+}
+
+
+
+public static void testLang06()
+{
+   AbstractCategoryItemRenderer r = new LineAndShapeRenderer();
+   DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+   CategoryPlot plot = new CategoryPlot();
+   plot.setDataset(dataset);
+   plot.setRenderer(r);
+   dataset.addValue(1.0, "S1", "C1");
+   LegendItemCollection lic = r.getLegendItems();
+   assert lic.getItemCount() == 1;
+   assert lic.get(0).getLabel().equals("S1");
+}
+
+
+
+}	// end of class BugLang06
+
+
+
+
+/* end of BugLang06.java */
+

@@ -1,0 +1,15 @@
+BF_R
+import org.jfree.chart.LegendItemCollection;\361import org.jfree.chart.pl
+ot.CategoryPlot;\361import org.jfree.chart.renderer.category.AbstractCate
+goryItemRenderer;\361import org.jfree.chart.renderer.category.LineAndShap
+eRenderer;\361import org.jfree.data.category.DefaultCategoryDataset;\361
+
+BF_W
+\372\353Chart01\212Lang06\255\346
+
+BF_X
+1
+
+BF_Y
+   assert lic.get(0).getLabel().equals("S1");\361
+
